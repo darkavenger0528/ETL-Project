@@ -1,0 +1,15 @@
+{
+  "registros_iniciales": 70,
+  "fechas_formato_corregido": 12,
+  "fechas_invalidas_eliminadas": 0,
+  "cliente_id_nulos_imputados": 5,
+  "order_id_duplicados_eliminados": 1,
+  "registros_fuera_de_rango_eliminados": 1,
+  "huerfanos_producto_eliminados": 1,
+  "huerfanos_tienda_eliminados": 0,
+  "registros_finales": 67,
+  "registros_descartados": 3,
+  "porcentaje_retencion": 95.71,
+  "nulos_restantes": 0,
+  "integridad_referencial_ok": true
+}

@@ -1,0 +1,11 @@
+producto_id,categoria,subcategoria,marca
+P123,Electrónicos,Smartphones,Samsung
+P456,Hogar,Electrodomésticos,LG
+P789,Alimentos,Bebidas,Coca-Cola
+P321,Ropa,Calzado,Nike
+P999,Electrónicos,Tablets,Apple
+P101,Alimentos,Lácteos,Alpina
+P102,Alimentos,Snacks,Frito-Lay
+P103,Hogar,Muebles,IKEA
+P104,Ropa,Camisetas,Adidas
+P105,Electrónicos,Audio,Sony

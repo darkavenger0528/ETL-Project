@@ -1,0 +1,21 @@
+10:14:21 | INFO    | === FASE 1: EXTRACCIÓN ===
+10:14:21 | INFO    | Cargado ventas_crudas.csv  ->   70 registros, 7 columnas
+10:14:21 | INFO    | Cargado productos.csv      ->   10 registros, 4 columnas
+10:14:21 | INFO    | Cargado tiendas.csv        ->    5 registros, 5 columnas
+10:14:21 | INFO    | === FASE 2: TRANSFORMACIÓN ===
+10:14:21 | INFO    | cliente_id nulos imputados: 5
+10:14:21 | INFO    | order_id duplicados eliminados: 1
+10:14:21 | WARNING | Se eliminan 1 registros fuera de rango (order_id: [1069])
+10:14:21 | WARNING | producto_id sin match: ['P000']
+10:14:21 | INFO    | Registros: 70 iniciales -> 67 finales (95.7% retención)
+10:14:21 | INFO    | === FASE 3: CARGA ===
+10:14:21 | INFO    | Guardado ventas_transformadas.csv   (67 filas)
+10:14:21 | INFO    | Guardado data_mart_ventas.csv       (64 filas)
+10:14:21 | INFO    | Guardado resumen_ejecutivo.csv      (24 filas)
+10:14:21 | INFO    | Guardado indicadores_calidad.json
+10:14:21 | INFO    | === FASE 4: VISUALIZACIONES ===
+10:14:21 | INFO    | Gráfico guardado: 01_ventas_por_ciudad.png
+10:14:21 | INFO    | Gráfico guardado: 02_ventas_por_categoria.png
+10:14:21 | INFO    | Gráfico guardado: 03_transacciones_por_dia.png
+10:14:21 | INFO    | Gráfico guardado: 04_histograma_montos.png
+10:14:21 | INFO    | Pipeline finalizado correctamente
